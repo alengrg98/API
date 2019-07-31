@@ -31,7 +31,7 @@ $(document).ready(function(){             //jQuery
         $("#bus").click(function(){
             $.ajax({                        //AJAX format
                 type:"GET",                 //type mentions the method to be used 
-                url :"https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=51b74dfd67a842cea5653055d883f63c",         //can provide API link
+                url :"https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=744c6592531e446cb11640533858f6a8",         //can provide API link
                 beforeSend : function(){
                     $("#load").show();
                 },
@@ -58,7 +58,7 @@ $(document).ready(function(){             //jQuery
         $("#spo").click(function(){
             $.ajax({                        //AJAX format
                 type:"GET",                 //type mentions the method to be used 
-                url :"https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=51b74dfd67a842cea5653055d883f63c",         //can provide API link
+                url :"https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=744c6592531e446cb11640533858f6a8",         //can provide API link
                 beforeSend : function(){
                     $("#load").show();
                 },
@@ -85,7 +85,7 @@ $(document).ready(function(){             //jQuery
         $("#ent").click(function(){
             $.ajax({                        //AJAX format
                 type:"GET",                 //type mentions the method to be used 
-                url :"https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=51b74dfd67a842cea5653055d883f63c",         //can provide API link
+                url :"https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=744c6592531e446cb11640533858f6a8",         //can provide API link
                 beforeSend : function(){
                     $("#load").show();
                 },
@@ -114,7 +114,7 @@ $(document).ready(function(){             //jQuery
     $("#tp1").click(function(){      
         $.ajax({                        //AJAX format
             type:"GET",                 //type mentions the method to be used 
-            url :"https://newsapi.org/v2/top-headlines?country=in&apiKey=51b74dfd67a842cea5653055d883f63c",         //can provide API link
+            url :"https://newsapi.org/v2/top-headlines?country=in&apiKey=744c6592531e446cb11640533858f6a8",         //can provide API link
             beforeSend : function(){
                 $("#load").show();
             },
