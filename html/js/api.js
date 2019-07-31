@@ -4,7 +4,7 @@ $(document).ready(function(){             //jQuery
         $("#tech").click(function(){
             $.ajax({                        //AJAX format
                 type:"GET",                 //type mentions the method to be used 
-                url :"https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=51b74dfd67a842cea5653055d883f63c",         //can provide API link
+                url :"https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=744c6592531e446cb11640533858f6a8",         //can provide API link
                 beforeSend : function(){
                     $("#load").show();
                 },
